@@ -1,3 +1,4 @@
+
 a {
     background-color: lightblue;
     color: rgb(71,69,69);
@@ -6,10 +7,37 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover {
+    background-color: darkgray;
+    Color: white;
+}
 nav {
     display: flex;
-  
+    justify-content: center;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+img {
+    width:40%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
 }
 .background {
     background-color: #ccc;
+}
+footer p {
+    background-color: lightblue;
+    color: rgb(70, 69, 69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
 }
