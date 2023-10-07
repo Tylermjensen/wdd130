@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #468189;
+    --secondary-color: #77ACA2;
+    --accent1-color: #9DBEBB;
+    --accent2-color: #1C4C65;
+    --heading-font: "Montserrat";
+    --paragraph-font: "Work Sans Light";
+}
+
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, p, ul, li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none; /* Remove underlines from all links */
+}
+
+body {
+    background-color: #fff; 
+    font-family: var(--paragraph-font), sans-serif;
+    color: #000; 
+}
+
+header {
+    background-color: var(--accent1-color);
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    text-align: center;
+    color: #fff; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #000;
+}
+
+.button-box {
+    text-align: center;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+.msg {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.logo,
+.icon {
+    width: 80px;
+}
+
+/* Positioning the logo at the top left */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
