@@ -44,9 +44,15 @@ nav a:hover {
     background-color: var(--accent2-color);
 }
 
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: #000;
+}
+
+#hero-img {
+    width: 100%;
+    height: auto;
 }
 
 .button-box {
@@ -68,6 +74,7 @@ main section {
  
 #background {
     height: 725px;
+    background-color:#9DBEBB
 }
 
 .msg {
