@@ -1,17 +1,17 @@
+  
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 :root {
     --primary-color: #468189;
     --secondary-color: #77ACA2;
     --accent1-color: #9DBEBB;
     --accent2-color: #1C4C65;
     --heading-font: "Montserrat";
-    --paragraph-font: "Work Sans Light";
-    --fallback-heading-font: sans-serif; 
-    --fallback-paragraph-font: sans-serif; 
+    --paragraph-font: "Work Sans Light"; 
+
   }
  
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
-  @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-
   body, h1, h2, h3, h4, p, ul, li {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
   
   body {
     background-color: #fcfbfb;
-    font-family: var(--paragraph-font), var(--fallback-paragraph-font); 
+    font-family: "Work Sans Light", Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -92,7 +92,7 @@
   
  
   .home-title {
-    font-family: var(--heading-font), var(--fallback-heading-font);
+    font-family: "Montserrat bold", Arial, sans-serif;
     font-size: 2em;
   }
   
