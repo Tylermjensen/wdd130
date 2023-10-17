@@ -1,6 +1,5 @@
   
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
-  @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+  
 
 :root {
     --primary-color: #468189;
@@ -11,6 +10,8 @@
     --paragraph-font: "Work Sans Light"; 
 
   }
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans');
  
   body, h1, h2, h3, h4, p, ul, li {
     margin: 0;
