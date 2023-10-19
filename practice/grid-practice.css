@@ -42,6 +42,9 @@ p{
     height: 100%;
     background-color: rgba(50, 50, 50, .7);
 }
+#overlay:hover {
+    background-color: transparent;
+}
 #m_two {
     grid-column: 4/6;
     grid-row: 4/6;
