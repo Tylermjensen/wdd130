@@ -39,7 +39,7 @@
     text-align: center;
     padding: 20px;
   }
-  
+
   nav a {
     text-align: center;
     color: #fff;
@@ -175,15 +175,7 @@
   .icon {
     width: 80px;
   }
-  
-  .logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  /* Your existing CSS code here */
 
-/* Header Grid */
 header {
   display: grid;
   grid-template-columns: 150px auto;
@@ -200,7 +192,6 @@ nav {
   align-self: center;
 }
 
-/* Hero Grid */
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -220,11 +211,10 @@ nav {
 }
 
 #hero-msg h4 {
-  color: var(white);
+  color: white;
   margin-bottom: 20px;
 }
 
-/* Main Grid */
 .card-img, .mountains {
   width: 100%;
 }
@@ -252,7 +242,6 @@ nav {
 #background {
   grid-column: 1/11;
   grid-row: 4/9;
-  display: none;
 }
 
 .mountains {
@@ -265,7 +254,6 @@ nav {
   grid-row: 6/7;
 }
 
-/* Footer Layout */
 footer {
   background-color: var(--secondary-color); 
   padding: 25px 50px;
@@ -278,7 +266,7 @@ footer {
 .card-img {
   border: 10px solid var(--secondary-color); 
   transition: transform 0.5s;
-  box-shadow: 5px 5px 10px var(--accent1-color); 
+  box-shadow: 5px 5px 10px #3a3b3c; 
 }
 
 .card-img:hover {
@@ -291,14 +279,13 @@ footer {
   padding: 35px;
   grid-column: 6/10;
   grid-row: 6/7;
-  box-shadow: 5px 5px 10px var(--accent1-color); 
+  box-shadow: 5px 5px 10px #3a3b3c; 
 }
 
 .mountains {
-  box-shadow: 5px 5px 10px var(--accent1-color); 
+  box-shadow: 5px 5px 10px #3a3b3c; 
 }
 
-/* Responsive Design */
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
     display: block;
@@ -328,4 +315,11 @@ footer {
 #hero-msg h1, #hero-msg h4 {
   color: var(--accent2-color);
 }
+.logo{
+  width: 100px;
+}
+#background {
+  display: none;
+}
+
 }
