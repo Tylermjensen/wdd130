@@ -148,7 +148,13 @@
   footer {
     margin-top: 200px;
   }
-  
+
+  img[src="images/wireframeplan.png"] {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .book, .join {
     background-color: #1C4C65;
     color: white;
@@ -286,6 +292,7 @@ footer {
   box-shadow: 5px 5px 10px #3a3b3c; 
 }
 
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
     display: block;
@@ -323,3 +330,40 @@ footer {
 }
 
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #468189;
+}
+
+.question {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #468189;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+
