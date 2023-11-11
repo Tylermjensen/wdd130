@@ -3,28 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
     <link rel="stylesheet" href="capturemadeperfect.css">
+    <title>Capture Made Perfect</title>
 </head>
 <body>
-    <div class="slider">
-        <div class="images">
-            <input type="radio" name="slide" id="img1" checked>
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-            <input type="radio" name="slide" id="img4">
-
-            <img src="fprimages/Bamboo1.jpg" class="m1" alt="img1">
-            <img src="fprimages/flower1.jpg" class="m2" alt="img2">
-            <img src="fprimages/mountains1.jpg" class="m3" alt="img3">
-            <img src="fprimages/tunnel1.jpg" class="m4" alt="img4">
+    <header>
+        <nav>
+            <div class="logo"><img src="fprimages/logo1.png" alt="Capture Made Perfect Logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#prints">Prints</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="fprimages/Bamboo1.jpg" alt="Slide 1">
         </div>
-        <div class="dots">
-            <label for="img1"></label>
-            <label for="img2"></label>
-            <label for="img3"></label>
-            <label for="img4"></label>
+    
+        <div class="mySlides fade">
+            <img src="fprimages/flower1.jpg" alt="Slide 2">
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="fprimages/cave1.jpg" alt="Slide 3">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="fprimages/trees1.jpg" alt="Slide 3">
+        </div>
+        <!-- Add more slides as needed -->
+    
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+<div id="content">
+ <!-- Add this inside the body tag, where you want the slideshow to appear -->
+    <!-- Website Title -->
+    <div class="website-title">
+        <h1>Capture Made Perfect</h1>
+        <div class="line"></div>
+    </div>
+
+    <!-- Content Grid -->
+    <div class="content-grid">
+        <!-- First Title and Body -->
+        <div class="content-section">
+            <h2>What is Capture Made Perfect</h2>
+            <p>Welcome to a world where photography meets storytelling. I'm Tyler, a small business owner based in Idaho. Here, I share my love for capturing moments through a carefully curated collection of photographs and prints, each capturing our world in unique ways.</p>
+            <div class="line"></div>
+        </div>
+
+        <!-- Second Title and Body -->
+        <div class="content-section">
+            <h2>Unveiling Emotions Through Photography</h2>
+            <p>Photography isn't just about freezing moments in time; it's about encapsulating emotions, experiences, and stories within each image. My goal is to offer you art that goes beyond just decoration. I want to provide pieces that share the wonders and curiosities around us. </p>
+        </div>
+
+        <!-- Image and Third Title and Body -->
+        <div class="content-section image-section">
+            <img src="fprimages/Jellyfish1.jpg" alt="Your Image">
+            <div class="image-text">
+                <div class="line"></div>
+                <h2>Art For You</h2>
+                <p>Whether you're a photography enthusiast, a collector of art, or someone looking to add a touch of decoration and emotion to your spaces, you'll find something here. Your home, office, or business deserves art. From breathtaking landscapes and cityscapes to macro photography and nature, I've curated a range that appeals to everyone's aesthetic.
+                </p>
+                <div class="line"></div>
+            </div>
         </div>
     </div>
+</div>
+    <footer>
+        <p>CAPTURE MADE PERFECT &copy; 2023 - Tyler Jensen</p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="fprimages/facebook1.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="fprimages/twitter1.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="fprimages/instagram1.png" alt="instagram icon">
+            </a>
+        </div>
+      </footer>
+<script src="slideshow.js"></script>
+</div>
 </body>
 </html>
