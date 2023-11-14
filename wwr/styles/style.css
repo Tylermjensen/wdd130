@@ -295,6 +295,7 @@ h5{
   text-align: center;
   color: #1C4C65;
   background-color: #9DBEBB;
+  padding: 30px 30px;
   font-size: 30px;
 }
 form {
@@ -348,7 +349,7 @@ button {
 }
 
 #feedback {
-  background-color: antiquewhite;
+  background-color: #9DBEBB;
   position: absolute;
   top: 0;
   left: 0;
