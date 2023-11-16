@@ -52,11 +52,10 @@ nav {
     color: #9a948b;
 }
 
-/* Change color on hover */
 .nav-links a:hover {
     color: #3c3a59;
 }
-/* Add this to your existing CSS file or create a new one */
+
 .slideshow-container {
     max-width: 100%;
     position: relative;
@@ -88,7 +87,7 @@ img {
 .next {
     right: 10px;
 }
-/* Content Styles */
+
 .website-title {
     text-align: center;
     margin: 20px 0;
@@ -147,7 +146,7 @@ footer {
     letter-spacing:5px;
     text-transform:uppercase;
     color: #9a948b;
-
+    text-decoration: none;
   }
   
   .footer a {
