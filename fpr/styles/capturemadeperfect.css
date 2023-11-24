@@ -166,6 +166,7 @@ footer {
   .social img {
     width: 30px; 
     text-decoration: none;
+    border-radius: 50%;
   }
   
   .prints-image{
