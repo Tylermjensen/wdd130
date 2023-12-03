@@ -211,3 +211,28 @@ footer {
   .prints-image{
     width: 30%;
   }
+
+.portfolio-image{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.portfolio-section {
+  width: 100%;
+}
+
+.portfolio-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio-image img {
+  max-width: 20%;
+  height: auto;
+  margin: 10px;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.portfolio-image img:hover {
+  transform: scale(1.5); 
+}
