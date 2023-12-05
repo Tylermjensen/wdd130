@@ -9,6 +9,7 @@ h1,h2,h3{
     letter-spacing:5px;
     text-transform:uppercase;
   } 
+  
   p{
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -157,11 +158,14 @@ img {
 footer {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
   }
   
   footer p {
     margin: 5px 0;
+    margin-left: 15px;
     font-family: "Tinos" ;
     font-weight: normal;
     letter-spacing:5px;
@@ -175,7 +179,6 @@ footer {
   }
   
   .social {
-    margin-top: 10px;
     text-decoration: none;
     text-align: center;
   }
@@ -192,7 +195,7 @@ footer {
   }
 
   .site-plan {
-    text-decoration: none;
+  width: 175px;
 }
 
   .site-plan a {
@@ -213,7 +216,7 @@ footer {
   }
 
 .portfolio-image{
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .portfolio-section {
@@ -235,4 +238,8 @@ footer {
 
 .portfolio-image img:hover {
   transform: scale(1.5); 
+}
+.prints-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
