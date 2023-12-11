@@ -252,3 +252,9 @@ footer {
 .spacing{
   margin-bottom: 50px;
 }
+#feedback {
+  padding: .5em;  
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: 'Avenir', sans-serif;
+}
