@@ -268,7 +268,7 @@ button, select {
 }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #363737;
   font-family: 'Avenir';
   margin: 0;
 }
@@ -282,7 +282,7 @@ textarea {
 }
 
 #container {
-  border: solid 3px #474544;
+  border: solid 3px #363737;
   max-width: 768px;
   margin: 60px auto;
   position: relative;
@@ -294,7 +294,7 @@ form {
 }
 
 h1 {
-  color: #474544;
+  color: #363737;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -310,8 +310,8 @@ h1 {
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
+	border-bottom: solid 2px #363737;
+	color: #363737;
 	font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -365,8 +365,8 @@ textarea {
 }
 #form_button {
   background: none;
-  border: solid 2px #474544;
-  color: #474544;
+  border: solid 2px #363737;
+  color: #363737;
   cursor: pointer;
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
@@ -383,6 +383,30 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544;
+  background: #363737;
   color: #F2F3EB;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+td {
+  border: 1px solid white;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+}
+
+th {
+  border: 1px solid white;
+  padding: 15px;
+  text-align: center;
+  background-color: #363737;
+  color: white;
+  font-family: 'Tinos', sans-serif;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  font-weight: normal;
 }
